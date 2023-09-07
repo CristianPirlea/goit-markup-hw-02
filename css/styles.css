@@ -13,19 +13,16 @@ body {
 /* Stilizare Logo */
 .logo{
     text-decoration: none;
+    font-style: "Releway";
+    font-weight: 700;
+    font-size: 26px;
 }
 .logo-first {
-  font-style: "Releway";
-  font-weight: 700;
   color: var(--hover-color);
-  font-size: 26px;
 }
 
 .logo-second {
-  font-style: "Releway";
-  font-weight: 700;
   color: #000;
-  font-size: 26px;
 }
 
 /* Stilizarea link-urilor de navigare */
