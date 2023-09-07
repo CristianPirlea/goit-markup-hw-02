@@ -1,64 +1,111 @@
 :root {
-    --section-color:#2F303A;
-    --link-color: #212121;
+  --section-color: #2f303a;
+  --element-color: #212121;
+  --text-color: #757575;
+  --hover-color: #2196f3;
 }
-body{
-    background-color: #ECECEC;
-    font-family: "Roboto";
-    font-size: 14px;
+
+body {
+  background-color: #ffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
 }
-.logo-first{
-    font-style: "Releway";
-    font-weight: 700;
-    color: #2196F3;
-    font-size: 26px;
+/* Stilizare Logo */
+.logo{
+    text-decoration: none;
 }
+.logo-first {
+  font-style: "Releway";
+  font-weight: 700;
+  color: var(--hover-color);
+  font-size: 26px;
+}
+
 .logo-second {
-    font-style: "Releway";
-    font-weight: 700;
-    color: #000;
-    font-size: 26px;
-}
-.nav-list{
-    list-style-type: none;
+  font-style: "Releway";
+  font-weight: 700;
+  color: #000;
+  font-size: 26px;
 }
 
-.global-header .main-navigation a:link{
-    color: var(--link-color);
-    text-decoration: none;
-    font-weight: 500;
+/* Stilizarea link-urilor de navigare */
+.nav-list {
+  list-style-type: none;
 }
+
+.global-header .main-navigation a:link {
+  color: var(--element-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
 .global-header .main-navigation a:hover {
-    color: #2196F3;
-}
-.contacts a:link{
-    color: #757575;
-    text-decoration: none;
-    font-weight: 500;
-}
-.contacts a:hover {
-    color: #2196F3;
-}
-.request-service-class{
-    background-color: var(--section-color);
-    color: #FFFF;
-    font-weight: 900;   
+  color: var(--hover-color);
 }
 
-.request-service-button{
-    background-color: #2196F3;
-    color: #FFFF;
-    font-weight: 700;
-    
+.contacts a:link {
+  color: var(--text-color);
+  text-decoration: none;
+  font-weight: 500;
 }
-.description-list{
+
+.contacts a:hover {
+  color: var(--hover-color);
+}
+
+/* Stilizare First Section */
+.first-section-class {
+  background-color: var(--section-color);
+  color: #ffff;
+  font-weight: 900;
+}
+.request-service-button {
+  background-color: var(--hover-color);
+  color: #ffff;
+  font-weight: 700;
+}
+
+/* Stilizare Description Section */
+.description-list {
+  list-style-type: none;
+}
+
+.description-title {
+  font-weight: 700;
+  color: var(--element-color);
+}
+.description-text {
+  color: var(--text-color);
+}
+
+/* Stilizare What We Do Section */
+.what-we-do-list {
+  list-style-type: none;
+}
+
+/* Stilizare Our Team Section  */
+.team-list {
     list-style-type: none;
 }
-.description-title{
-    font-weight: 700;
-    color: var(--link-color);
+
+.team-section {
+  background-color: #f5f4fa;
 }
 
-.global-footer{
-    background-color: var(--section-color);
+.team-member {
+  color: var(--element-color);
+  font-weight: 500;
+  font-size: 16px;
+}
+.team-member-job {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--text-color);
+}
+.footer-address:hover {
+  color: var(--hover-color);
+}
+
+.global-footer {
+  background-color: var(--section-color);
 }
