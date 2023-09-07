@@ -1,6 +1,64 @@
-.request-service-class{
-    background-color: #2F303A;
+:root {
+    --section-color:#2F303A;
+    --link-color: #212121;
 }
-footer{
-    background-color: #2F303A;
+body{
+    background-color: #ECECEC;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+.logo-first{
+    font-style: "Releway";
+    font-weight: 700;
+    color: #2196F3;
+    font-size: 26px;
+}
+.logo-second {
+    font-style: "Releway";
+    font-weight: 700;
+    color: #000;
+    font-size: 26px;
+}
+.nav-list{
+    list-style-type: none;
+}
+
+.global-header .main-navigation a:link{
+    color: var(--link-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+.global-header .main-navigation a:hover {
+    color: #2196F3;
+}
+.contacts a:link{
+    color: #757575;
+    text-decoration: none;
+    font-weight: 500;
+}
+.contacts a:hover {
+    color: #2196F3;
+}
+.request-service-class{
+    background-color: var(--section-color);
+    color: #FFFF;
+    font-weight: 900;   
+}
+
+.request-service-button{
+    background-color: #2196F3;
+    color: #FFFF;
+    font-weight: 700;
+    
+}
+.description-list{
+    list-style-type: none;
+}
+.description-title{
+    font-weight: 700;
+    color: var(--link-color);
+}
+
+.global-footer{
+    background-color: var(--section-color);
 }
