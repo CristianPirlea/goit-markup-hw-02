@@ -11,16 +11,15 @@ body {
   font-size: 14px;
 }
 /* Stilizare Logo */
-.logo{
-    text-decoration: none;
-    font-style: "Releway";
-    font-weight: 700;
-    font-size: 26px;
+.logo {
+  text-decoration: none;
+  font-style: "Releway";
+  font-weight: 700;
+  font-size: 26px;
 }
 .logo-first {
   color: var(--hover-color);
 }
-
 .logo-second {
   color: #000;
 }
@@ -29,23 +28,19 @@ body {
 .nav-list {
   list-style-type: none;
 }
-
 .global-header .main-navigation a:link {
   color: var(--element-color);
   text-decoration: none;
   font-weight: 500;
 }
-
 .global-header .main-navigation a:hover {
   color: var(--hover-color);
 }
-
 .contacts a:link {
   color: var(--text-color);
   text-decoration: none;
   font-weight: 500;
 }
-
 .contacts a:hover {
   color: var(--hover-color);
 }
@@ -66,7 +61,6 @@ body {
 .description-list {
   list-style-type: none;
 }
-
 .description-title {
   font-weight: 700;
   color: var(--element-color);
@@ -82,13 +76,11 @@ body {
 
 /* Stilizare Our Team Section  */
 .team-list {
-    list-style-type: none;
+  list-style-type: none;
 }
-
 .team-section {
   background-color: #f5f4fa;
 }
-
 .team-member {
   color: var(--element-color);
   font-weight: 500;
@@ -99,10 +91,17 @@ body {
   font-size: 16px;
   color: var(--text-color);
 }
+
 .footer-address:hover {
   color: var(--hover-color);
 }
-
+.button-list{
+  list-style-type: none;
+}
+.filter-button{
+  font-weight: 500;
+  font-size: 16px;
+}
 .global-footer {
   background-color: var(--section-color);
 }
