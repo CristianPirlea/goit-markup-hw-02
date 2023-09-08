@@ -9,6 +9,7 @@ body {
   background-color: #ffff;
   font-family: "Roboto",sans-serif;
   font-size: 14px;
+  color: #212121;
 }
 ul {
   list-style-type: none;
@@ -33,7 +34,7 @@ ul {
   text-decoration: none;
   font-weight: 500;
   line-height: 1.172;
-  color: var(--element-color);
+  color:#212121;
 }
 .global-header .main-navigation a:hover {
   color: var(--hover-color);
@@ -68,7 +69,6 @@ ul {
 .description-title {
   font-weight: 700;
   line-height: 1.17;
-  color: var(--element-color);
 }
 .description-text {
   line-height: 1.71;
@@ -80,7 +80,7 @@ ul {
   font-weight: 700;
   font-size: 36px;
   line-height: 3.01;
-  color: var(--element-color);
+  /* color: var(--element-color); */
 }
 
 /* Stilizare Our Team Section  */
@@ -91,7 +91,7 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.33;
-  color: var(--element-color);
+  /* color: var(--element-color); */
 }
 .team-member-job {
   font-size: 16px;
@@ -103,7 +103,7 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.85;
-  color: var(--element-color);
+  /* color: var(--element-color); */
 }
 .filter-button:hover {
   background-color: var(--hover-color);
@@ -115,7 +115,7 @@ ul {
   font-weight: 700;
   font-size: 18px;
   line-height: 2.57;
-  color: var(--element-color);
+  /* color: var(--element-color); */
 }
 .project-types {
   font-size: 16px;
