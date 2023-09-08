@@ -7,8 +7,11 @@
 
 body {
   background-color: #ffff;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto",sans-serif;
   font-size: 14px;
+}
+ul {
+  list-style-type: none;
 }
 /* Stilizare Logo */
 .logo {
@@ -16,6 +19,7 @@ body {
   font-style: "Releway";
   font-weight: 700;
   font-size: 26px;
+  line-height: 218%;
 }
 .logo-first {
   color: var(--hover-color);
@@ -24,14 +28,12 @@ body {
   color: #000;
 }
 
-/* Stilizarea link-urilor de navigare */
-.nav-list {
-  list-style-type: none;
-}
+/* Stilizarea link-urilor din antet */
 .global-header .main-navigation a:link {
-  color: var(--element-color);
   text-decoration: none;
   font-weight: 500;
+  line-height: 117.214%;
+  color: var(--element-color);
 }
 .global-header .main-navigation a:hover {
   color: var(--hover-color);
@@ -40,68 +42,96 @@ body {
   color: var(--text-color);
   text-decoration: none;
   font-weight: 500;
+  line-height: 117.214%;
 }
 .contacts a:hover {
   color: var(--hover-color);
 }
 
 /* Stilizare First Section */
-.first-section-class {
-  background-color: var(--section-color);
+.first-section{
   color: #ffff;
   font-weight: 900;
+  font-size: 44px;
+  line-height: 428.571%;
+  background-color: var(--section-color);
 }
 .request-service-button {
-  background-color: var(--hover-color);
   color: #ffff;
   font-weight: 700;
+  font-size: 16px;
+  line-height: 214.286%;
+  background-color: var(--hover-color);
 }
 
 /* Stilizare Description Section */
-.description-list {
-  list-style-type: none;
-}
 .description-title {
   font-weight: 700;
+  line-height: 117.214%;
   color: var(--element-color);
 }
 .description-text {
+  line-height: 171.429%;
   color: var(--text-color);
 }
 
-/* Stilizare What We Do Section */
-.what-we-do-list {
-  list-style-type: none;
+/* Stilizare Titluri Sectiuni */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 301.357%;
+  color: var(--element-color);
 }
 
 /* Stilizare Our Team Section  */
-.team-list {
-  list-style-type: none;
-}
 .team-section {
   background-color: #f5f4fa;
 }
 .team-member {
-  color: var(--element-color);
   font-weight: 500;
   font-size: 16px;
+  line-height: 133.929%;
+  color: var(--element-color);
 }
 .team-member-job {
-  font-weight: 400;
   font-size: 16px;
+  line-height: 133.929%;
   color: var(--text-color);
 }
-
-.footer-address:hover {
-  color: var(--hover-color);
-}
-.button-list{
-  list-style-type: none;
-}
-.filter-button{
+/* Stilizare Butoane Filtrare */
+.filter-button {
   font-weight: 500;
   font-size: 16px;
+  line-height: 185.714%;
+  color: var(--element-color);
+}
+.filter-button:hover {
+  background-color: var(--hover-color);
+  color: white;
+  cursor: pointer;
+}
+/* Stilizare Portofolio Section */
+.project-titles {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 257.143%;
+  color: var(--element-color);
+}
+.project-types {
+  font-size: 16px;
+  line-height: 214.286%;
+  color: var(--text-color);
+}
+/* Stilizare Subsol */
+.footer-address:hover {
+  color: var(--hover-color);
+
+}
+.footer-address{
+  color: #FFFFFF99;
 }
 .global-footer {
+  line-height: 117.214%;
   background-color: var(--section-color);
+  color: #FFFFFF;
 }
