@@ -19,7 +19,7 @@ ul {
   font-style: "Releway";
   font-weight: 700;
   font-size: 26px;
-  line-height: 218%;
+  line-height: 2.18;
 }
 .logo-first {
   color: var(--hover-color);
@@ -32,7 +32,7 @@ ul {
 .global-header .main-navigation a:link {
   text-decoration: none;
   font-weight: 500;
-  line-height: 117.214%;
+  line-height: 1.172;
   color: var(--element-color);
 }
 .global-header .main-navigation a:hover {
@@ -42,7 +42,7 @@ ul {
   color: var(--text-color);
   text-decoration: none;
   font-weight: 500;
-  line-height: 117.214%;
+  line-height: 1.17;
 }
 .contacts a:hover {
   color: var(--hover-color);
@@ -53,25 +53,25 @@ ul {
   color: #ffff;
   font-weight: 900;
   font-size: 44px;
-  line-height: 428.571%;
+  line-height: 4.28;
   background-color: var(--section-color);
 }
 .request-service-button {
   color: #ffff;
   font-weight: 700;
   font-size: 16px;
-  line-height: 214.286%;
+  line-height: 2.14;
   background-color: var(--hover-color);
 }
 
 /* Stilizare Description Section */
 .description-title {
   font-weight: 700;
-  line-height: 117.214%;
+  line-height: 1.17;
   color: var(--element-color);
 }
 .description-text {
-  line-height: 171.429%;
+  line-height: 1.71;
   color: var(--text-color);
 }
 
@@ -79,7 +79,7 @@ ul {
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 301.357%;
+  line-height: 3.01;
   color: var(--element-color);
 }
 
@@ -90,19 +90,19 @@ ul {
 .team-member {
   font-weight: 500;
   font-size: 16px;
-  line-height: 133.929%;
+  line-height: 1.33;
   color: var(--element-color);
 }
 .team-member-job {
   font-size: 16px;
-  line-height: 133.929%;
+  line-height: 1.33;
   color: var(--text-color);
 }
 /* Stilizare Butoane Filtrare */
 .filter-button {
   font-weight: 500;
   font-size: 16px;
-  line-height: 185.714%;
+  line-height: 1.85;
   color: var(--element-color);
 }
 .filter-button:hover {
@@ -114,12 +114,12 @@ ul {
 .project-titles {
   font-weight: 700;
   font-size: 18px;
-  line-height: 257.143%;
+  line-height: 2.57;
   color: var(--element-color);
 }
 .project-types {
   font-size: 16px;
-  line-height: 214.286%;
+  line-height: 2.14;
   color: var(--text-color);
 }
 /* Stilizare Subsol */
@@ -131,7 +131,7 @@ ul {
   color: #FFFFFF99;
 }
 .global-footer {
-  line-height: 117.214%;
+  line-height: 1.17;
   background-color: var(--section-color);
   color: #FFFFFF;
 }
