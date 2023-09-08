@@ -80,7 +80,6 @@ ul {
   font-weight: 700;
   font-size: 36px;
   line-height: 3.01;
-  /* color: var(--element-color); */
 }
 
 /* Stilizare Our Team Section  */
@@ -91,7 +90,6 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.33;
-  /* color: var(--element-color); */
 }
 .team-member-job {
   font-size: 16px;
@@ -103,7 +101,6 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.85;
-  /* color: var(--element-color); */
 }
 .filter-button:hover {
   background-color: var(--hover-color);
@@ -115,7 +112,6 @@ ul {
   font-weight: 700;
   font-size: 18px;
   line-height: 2.57;
-  /* color: var(--element-color); */
 }
 .project-types {
   font-size: 16px;
