@@ -61,7 +61,12 @@ ul {
   font-weight: 700;
   font-size: 16px;
   line-height: 2.14;
+  font-style: inherit;
+  cursor: pointer;
   background-color: var(--hover-color);
+}
+.request-service-button:hover{
+  background-color: #188CE8;
 }
 
 /* Stilizare Description Section */
@@ -100,6 +105,7 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.85;
+  font-family: inherit;
 }
 .filter-button:hover {
   background-color: var(--hover-color);
@@ -118,6 +124,9 @@ ul {
   color: var(--text-color);
 }
 /* Stilizare Subsol */
+.adress{
+  font-style: normal;
+}
 .footer-address:hover {
   color: var(--hover-color);
 
@@ -129,4 +138,5 @@ ul {
   line-height: 1.17;
   background-color: var(--section-color);
   color: #FFFFFF;
+  font-style: normal;
 }
