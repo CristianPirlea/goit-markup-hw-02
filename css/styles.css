@@ -6,7 +6,7 @@
 
 body {
   background-color: #ffff;
-  font-family: "Roboto",sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   color: #212121;
 }
@@ -34,9 +34,11 @@ ul {
   text-decoration: none;
   font-weight: 500;
   line-height: 1.172;
-  color:#212121;
+  color: #212121;
 }
-.global-header .main-navigation a:hover {
+.global-header .main-navigation a:hover,
+.global-header .main-navigation a:active,
+.current {
   color: var(--hover-color);
 }
 .contacts a:link {
@@ -50,7 +52,7 @@ ul {
 }
 
 /* Stilizare First Section */
-.first-section{
+.first-section {
   color: #ffff;
   font-weight: 900;
   font-size: 44px;
@@ -66,8 +68,8 @@ ul {
   cursor: pointer;
   background-color: var(--hover-color);
 }
-.request-service-button:hover{
-  background-color: #188CE8;
+.request-service-button:hover {
+  background-color: #188ce8;
 }
 
 /* Stilizare Description Section */
@@ -113,6 +115,9 @@ ul {
   color: white;
   cursor: pointer;
 }
+.filter-button:active {
+  background-color: var(--hover-color);
+}
 /* Stilizare Portofolio Section */
 .project-titles {
   font-weight: 700;
@@ -125,19 +130,18 @@ ul {
   color: var(--text-color);
 }
 /* Stilizare Subsol */
-.adress{
+.adress {
   font-style: normal;
 }
 .footer-address:hover {
   color: var(--hover-color);
-
 }
-.footer-address{
-  color: #FFFFFF99;
+.footer-address {
+  color: #ffffff99;
 }
 .global-footer {
   line-height: 1.17;
   background-color: var(--section-color);
-  color: #FFFFFF;
+  color: #ffffff;
   font-style: normal;
 }
