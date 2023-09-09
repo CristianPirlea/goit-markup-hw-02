@@ -20,6 +20,7 @@ ul {
   font-weight: 700;
   font-size: 26px;
   line-height: 2.18;
+  color: #ffff;
 }
 .logo-first {
   color: var(--hover-color);
