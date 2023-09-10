@@ -109,11 +109,11 @@ ul {
   font-size: 16px;
   line-height: 1.85;
   font-family: inherit;
+  cursor: pointer;
 }
 .filter-button:hover {
   background-color: var(--hover-color);
   color: white;
-  cursor: pointer;
 }
 .filter-button:active {
   background-color: var(--hover-color);
